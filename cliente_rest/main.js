@@ -426,7 +426,7 @@ function construirEnvio() {
             envio.datos.push({
                 nombre: san.nombre,
                 apellidos: san.apellidos,
-                categoria: getNombreCategoria(recurso.categoria),
+                "categoría": getNombreCategoria(recurso.categoria),
                 horas_estimadas: reserva.horas_estimadas,
                 fec_pet: fechaYMD(reserva.fecha_peticion),
                 fec_ini: fechaYMD(reserva.fecha_inicio),
